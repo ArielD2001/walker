@@ -84,4 +84,17 @@ function finalVideo(){
 videoFile.addEventListener('ended', finalVideo);
 
 
- 
+ const toggle_theme = document.getElementById('theme-button');
+ const toggle_theme2 = document.getElementById('theme-button2');
+ const body = document.querySelector('.body');
+
+ toggle_theme.addEventListener('click', ()=>{
+     body.classList.add('dark-theme');
+     toggle_theme.classList.add('disable');
+     toggle_theme2.classList.remove('disable');
+ });
+  toggle_theme2.addEventListener('click', ()=>{
+     body.classList.remove('dark-theme');
+     toggle_theme.classList.remove('disable');
+     toggle_theme2.classList.add('disable');
+ })

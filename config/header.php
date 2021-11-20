@@ -19,11 +19,12 @@
                     <a href="index.php?restaurants" class="nav__link">Restaurants</a>
                 </li>
             </ul>
-                    <!-- <div class="nav__dark"> -->
+                    <div class="nav__dark"> 
                         <!-- Theme change button -->
-                        <!-- <span class="change-theme-name">Dark mode</span>
+                        <span class="change-theme-name">Dark mode</span>
                         <i class="ri-moon-line change-theme" id="theme-button"></i>
-                    </div> -->
+                        <i class="ri-sun-line disable change-theme" id="theme-button2"></i>
+                    </div>
 
             <i class="ri-close-line nav__close" id="nav-close"></i>
         </div>

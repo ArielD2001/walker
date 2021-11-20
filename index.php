@@ -29,7 +29,7 @@ include('config/condb.php');
         }
     ?>
 </head>
-<body>
+<body class="body">
     <?php include('config/header.php'); ?>
     <main class="main">
         <?php 

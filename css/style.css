@@ -937,3 +937,7 @@ section {
     opacity:1;
   }
 }
+.nav__dark i.disable{
+  display:none;
+}
+ 
