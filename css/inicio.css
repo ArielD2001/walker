@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient( rgb(82, 180, 180, 0.5), rgb(119,239,243));
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form form{
+    width: 100%;
+}
+.form .logo2{
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+ 
+.form .logo2 img{
+    border-radius: 50%;
+    transform:scale(1.2);
+
+}
+.form form .campo{
+    width: 100%;
+    padding: 5px 15px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 0 0 0 10px;
+} 
+.form form .campo input{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 10px;
+    width: 80%;
+    font-size: 1rem;
+    padding: 5px;
+}
+.form form .campo i{
+    color: grey;
+}
+.form .olvido{
+    width: 100%;
+    text-align: left;
+    padding: 0 15px;
+}
+.form .olvido a{
+    text-decoration: none;
+}
+.form .btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(187, 143, 228);
+    padding: 5px 20px;
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+}
+.form .btn2{
+    background-color: rgb(82, 151, 151);
+}
